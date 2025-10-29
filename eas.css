@@ -1,8 +1,23 @@
-#container {
+#outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 160px;
+}
+
+.button-popup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    margin: 24px
+}
+
+#parent-container {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
-    height: 960px;
-    width: 960px;
+    height: 480px;
+    width: 480px;
     box-sizing: border-box;
 }
